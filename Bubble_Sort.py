@@ -1,7 +1,6 @@
 #!/bin/python3
 
 import math
-import os
 import random
 import re
 import sys
@@ -27,9 +26,4 @@ def countSwaps(a):
     print("Last Element:", a[len(a) - 1])
     return
 
-if __name__ == '__main__':
-    n = int(input().strip())
 
-    a = list(map(int, input().rstrip().split()))
-
-    countSwaps(a)
