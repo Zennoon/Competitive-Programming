@@ -28,9 +28,3 @@ def insertionSort1(n, arr):
         arr[0] = num
     print(" ".join(str(num) for num in arr))
 
-if __name__ == '__main__':
-    n = int(input().strip())
-
-    arr = list(map(int, input().rstrip().split()))
-
-    insertionSort1(n, arr)
