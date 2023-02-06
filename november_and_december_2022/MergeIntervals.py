@@ -1,6 +1,6 @@
 # I have to say, this was not done intuitively. I had to look up pseudocode to come up with this.
-# While my previous submissions (which were done without hints) for this problem were operational, they were inefficient.
-# Most of my previous submissions were done in hopes of optimizing the algorithm by tweaking some parts.
+# While my previous submissions for this problem (which were done without hints) for this problem were operational, they were inefficient.
+# Most of my previous submissions for this problem were done in hopes of optimizing the algorithm by tweaking some parts.
 class Solution:
     def merge(self, intervals):
         result = []
